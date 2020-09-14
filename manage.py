@@ -19,5 +19,21 @@ def add_user():
 def user_list():
     return Response('........')
 
+
+@app.route('/add_user')
+def add_user():
+    return Response('........')
+
+@app.route('/user_list')
+def user_list():
+    return Response('........')
+
+@app.route('/add_user')
+def add_user():
+    return Response('........')
+
+@app.route('/user_list')
+def user_list():
+    return Response('........')
 if __name__ == '__main__':
     app.run()
